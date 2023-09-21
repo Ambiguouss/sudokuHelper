@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/board.cpp
+board.h
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/board.h
+vector
+-
+
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/board.h
+vector
+-
+field.h
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/field.h
+group.h
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/group.h
+
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/field.h
+vector
+-
+group.h
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/group.h
+step.h
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/step.h
+
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/group.h
+vector
+-
+set
+-
+iostream
+-
+field.h
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/field.h
+
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/step.h
+board.h
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/board.h
+

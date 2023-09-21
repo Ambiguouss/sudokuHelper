@@ -1,0 +1,8 @@
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/src/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/src/CMakeFiles/solution.dir
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/test/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/test/CMakeFiles/edit_cache.dir
+/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/test/CMakeFiles/test.dir

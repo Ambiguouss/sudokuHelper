@@ -8,7 +8,7 @@
 class Group;
 
 class Field{
-    std::vector<bool>possibleValues; //1 = value might be in the field, 0 - value will not be in the field
+    std::vector<bool>possibleValues; //1 = value migt be in the field, 0 - value will not be in the field
     std::set<Group*>groups;
     int solved=0;
     public:

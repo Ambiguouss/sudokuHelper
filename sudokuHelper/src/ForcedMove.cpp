@@ -1,4 +1,4 @@
-#include "step.h"
+#include "ForcedMove.h"
 
 bool ForcedMove::step(Board &B){
     for(int i=0;i<B.getN();i++){

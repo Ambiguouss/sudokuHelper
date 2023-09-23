@@ -23,7 +23,7 @@ class Field{
     void notifyGroups();
     void addGroup(Group* g);
     const std::set<Group*>& getGroups();
-    friend ForcedMove;
+    friend class ForcedMove;
     friend Group* commonGroupDiffThan(std::vector<Field*>& v,Group* g);
 };
 

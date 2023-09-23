@@ -2,13 +2,23 @@
 #include "field.h"
 #include "group.h"
 #include "step.h"
-#include "step.cpp"
+#include "interRemoval.h"
+#include "intersection.h"
+#include "ForcedMove.h"
+#include "ForcedMove.cpp"
+#include "intersection.cpp"
+#include "interRemoval.cpp"
+
+
 #include<iostream>
 int main(){
-    Board b(3);
+    int n;
+    std::cin>>n;
+    Board b(n);
     std::cin>>b;
-    std::cout<<b;
     ForcedMove s=ForcedMove();
-    while(s.step(b));
-    std::cout<<b;
+    Intersection i=Intersection();
+    InterRemoval r= InterRemoval();
+    while(s.step(b)||i.step(b)||r.step(b));
+    std::cout<<b<<'\n';
 }

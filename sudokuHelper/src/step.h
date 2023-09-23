@@ -7,11 +7,7 @@
 class Board;
 class Step{
     public:
-    bool step(Board& B);
+    virtual bool step(Board& B)=0;
+    virtual ~Step() {}
 };
-class ForcedMove : public Step{
-    public:
-    bool step(Board& B);
-};
-
 #endif

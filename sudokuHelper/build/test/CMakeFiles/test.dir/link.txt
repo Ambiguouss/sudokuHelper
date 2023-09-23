@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -Wunused -std=c++17 -g   CMakeFiles/test.dir/main.cpp.o  -o test  ../src/libsolution.a 

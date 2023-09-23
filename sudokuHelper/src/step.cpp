@@ -10,7 +10,10 @@ bool ForcedMove::step(Board &B){
                 if(f->possibleValues[i]==1&&res){res=-1;break;}
                 else if(f->possibleValues[i]==1)  res=i+1;
             }
-            if(res>0){f->solve(res);return 1;}
+            if(res>0){
+                f->solve(res);
+                return 1;
+            }
         }
     }
     return 0;

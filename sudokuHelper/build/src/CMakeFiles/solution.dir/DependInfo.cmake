@@ -1,17 +1,16 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/board.cpp" "/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/src/CMakeFiles/solution.dir/board.cpp.o"
-  "/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/field.cpp" "/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/src/CMakeFiles/solution.dir/field.cpp.o"
-  "/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/src/group.cpp" "/mnt/c/Users/macie/OneDrive/Pulpit/LATO23/pyt/sudokuHelper/build/src/CMakeFiles/solution.dir/group.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/src/board.cpp" "src/CMakeFiles/solution.dir/board.cpp.o" "gcc" "src/CMakeFiles/solution.dir/board.cpp.o.d"
+  "/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/src/field.cpp" "src/CMakeFiles/solution.dir/field.cpp.o" "gcc" "src/CMakeFiles/solution.dir/field.cpp.o.d"
+  "/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/src/group.cpp" "src/CMakeFiles/solution.dir/group.cpp.o" "gcc" "src/CMakeFiles/solution.dir/group.cpp.o.d"
   )
 
 # Targets to which this target links.

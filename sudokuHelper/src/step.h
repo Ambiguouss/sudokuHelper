@@ -7,11 +7,10 @@
 class Board;
 class Step{
     public:
-    bool step(Board& B);
+     bool step(Board& B);
 };
 class ForcedMove : public Step{
     public:
     bool step(Board& B);
 };
-
 #endif

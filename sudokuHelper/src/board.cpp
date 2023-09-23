@@ -36,6 +36,7 @@ Board::Board(int k){
             squares[i/k*k+j/k]->addField(fields[i*n+j]);
         }
     }
+
 };
 
 int Board::getN() const{
@@ -50,7 +51,14 @@ int Board::getFieldValue(int row, int col)const{
 void Board::setField(int row, int col, int x){
     fields[row*n+col]->setValue(x);
 }
-
+Group* Board::getColumn(int x){
+    return columns[x];
+}
+Group* Board::getRow(int x){
+    return rows[x];
+}Group* Board::getSquare(int x){
+    return squares[x];
+}
 std::istream& operator>>(std::istream &is,Board& B){
     for(int i=0;i<B.getN();i++){
         for(int j=0;j<B.getN();j++){

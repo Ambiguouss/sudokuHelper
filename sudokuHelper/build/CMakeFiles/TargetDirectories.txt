@@ -1,8 +1,0 @@
-/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/build/CMakeFiles/edit_cache.dir
-/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/build/CMakeFiles/rebuild_cache.dir
-/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/build/src/CMakeFiles/solution.dir
-/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/build/src/CMakeFiles/edit_cache.dir
-/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/build/src/CMakeFiles/rebuild_cache.dir
-/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/build/test/CMakeFiles/test.dir
-/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/build/test/CMakeFiles/edit_cache.dir
-/home/maciek/Desktop/PersonalCS/sudokuHelper/sudokuHelper/build/test/CMakeFiles/rebuild_cache.dir

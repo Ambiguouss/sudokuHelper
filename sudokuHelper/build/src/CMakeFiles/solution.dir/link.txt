@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsolution.a CMakeFiles/solution.dir/board.cpp.o CMakeFiles/solution.dir/field.cpp.o CMakeFiles/solution.dir/group.cpp.o
-/usr/bin/ranlib libsolution.a

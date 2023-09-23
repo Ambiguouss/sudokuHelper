@@ -1,9 +1,9 @@
 #include "field.h"
 
-Field::Field(int _col, int _row,int n) : col(_col),row(_row){
+Field::Field(int _row, int _col,int n) : col(_col),row(_row){
     possibleValues =  std::vector<bool>(n,1);
 };
-Field::Field(int _col, int _row, int n,int x):Field(_col,_row,n){
+Field::Field(int _row, int _col, int n,int x):Field(_col,_row,n){
     setValue(x);
 }
 bool Field::disallowValue(int x){

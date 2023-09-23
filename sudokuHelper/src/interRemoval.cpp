@@ -7,7 +7,9 @@ bool InterRemoval::step(Board &B){
             std::vector<Field*> v=g->whereCanBe(x);
             Group* w = commonGroupDiffThan(v,g);
             if(w==nullptr)continue;
-            if(w->removeNotInGroup(x,g))return true;
+            if(w->removeNotInGroup(x,g)){
+                return true;
+            }
         }
     }
     return false;

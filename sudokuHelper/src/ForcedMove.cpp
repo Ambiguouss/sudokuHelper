@@ -12,6 +12,7 @@ bool ForcedMove::step(Board &B){
             }
             if(res>0){
                 f->solve(res);
+                std::cout<<"FORCED MOVE "<<f->isDecided()<<" ON ROW "<<f->row+1<<" COL "<<f->col+1<<'\n'; //not very fun way
                 return 1;
             }
         }

@@ -13,12 +13,12 @@
 #include<iostream>
 int main(){
     int n;
-    std::cin>>n;
+    std::cin>>n; //if you want 9x9 sudoku, put 3 here.
     Board b(n);
     std::cin>>b;
     ForcedMove s=ForcedMove();
     Intersection i=Intersection();
     InterRemoval r= InterRemoval();
     while(s.step(b)||i.step(b)||r.step(b));
-    std::cout<<b<<'\n';
+    std::cout<<b;
 }

@@ -1,4 +1,5 @@
-/build/
+/SudokuHelper/build/
+/SudokuHelper/.vscode/
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
